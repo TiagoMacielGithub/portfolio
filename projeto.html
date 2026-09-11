@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio Acadêmico e Pessoal - Técnicas de Programação">
+  <meta name="description" content="Reflexões Acadêmicas - Técnicas de Programação">
   <title>Portfólio Acadêmico</title>
 
-  <!-- Fontes: -->
+  <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,16 +17,17 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container">
       <a class="navbar-brand fw-bold" href="index.html">
         <i class="bi bi-person-badge me-2"></i>Pagina Inicial
       </a>
-      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Alternar navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      
       <div class="collapse navbar-collapse justify-content-end" id="navMenu">
         <ul class="navbar-nav gap-2">
           <li class="nav-item">
@@ -39,51 +40,47 @@
             <a class="nav-link" href="atividades.html">Atividades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projeto.html">Projeto</a>
+            <a class="nav-link active" aria-current="page" href="projeto.html">Projeto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section id="eu" class="py-5 bg-light border-bottom">
+  <section id="atividades" class="py-5">
     <div class="container py-4">
-      <div class="row align-items-center g-4">
-        <div class="col-md-4 text-center">
-          <img src="img/foto.jpg" alt="Foto de Perfil" class="img-fluid rounded-circle shadow-sm profile-img mb-3">
-        </div>
+      <div class="mb-5 text-center">
+        <h1 class="h2 fw-bold text-dark">Projeto POO</h1>
+        <p class="text-muted">Escopo do projeto de POO da disciplina de Tecnicas de Programação I</p>
+      </div>
 
-        <div class="col-md-8">
-          <h1 class="display-5 fw-bold text-dark mb-2">Olá, eu sou Tiago Maciel</h1>
-          <p class="lead text-muted mb-3">
-            Esse é meu portfólio acadêmico e pessoal desenvolvido para a disciplina de <strong>Técnicas de Programação I</strong>.
-          </p>
-          
-          <p class="text-secondary mb-4">
-            Aqui compartilho minha jornada de aprendizado, minhas reflexões sobre os temas abordados nas aulas e os projetos práticos que venho desenvolvendo ao longo do curso.
-          </p>
-
-          <div class="card bg-white border-0 shadow-sm p-3 mb-4">
-            <div class="row g-2">
-              <div class="col-sm-6">
-                <strong>Curso:</strong> Desenvolvimento de Software Multiplataforma
-              </div>
-              <div class="col-sm-6">
-                <strong>Disciplina:</strong> Técnicas de Programação I
-              </div>
-              <div class="col-sm-6">
-                <strong>Instituição:</strong> Fatec Indaiatuba
-              </div>
-              <div class="col-sm-6">
-                <strong>Semestre:</strong> 2026 / 2º Semestre
+      <div class="row g-4 justify-content-center">
+        
+        <!-- Projeto -->
+        <div class="col-lg-10">
+          <div class="card shadow-sm border-0 mb-3">
+            <div class="card-body p-4">
+              <h2 class="h4 card-title text-dark fw-bold">Tema do projeto: Gestão inteligente para viagens corporativas</h2>
+              <p class="card-text text-secondary mt-3">
+              </p>
+              <h2 class="h4 card-title text-dark fw-bold">Integrantes:</h2>
+              <p class="card-text text-secondary mt-3">
+                - GABRIEL PINHEIRO <br/>
+                - ISABELLA DE OLIVEIRA <br/>
+                - MILLENA SANTOS CAMPIOTO <br/>
+                - PEDRO SILVA ROCHA <br/>
+                - TIAGO MACIEL DOS SANTOS <br/>
+              </p>
+              <h2 class="h4 card-title text-dark fw-bold">Objetivo:</h2>
+              <p class="card-text text-secondary mt-3">
+                Desenvolver um sistema para auxiliar os funcionários no registro, gerenciamento e organização das despesas realizadas durante viagens a trabalho. O sistema terá como objetivo centralizar essas informações em um único local, permitindo que os funcionários registrem de forma simples e organizada os gastos realizados, como alimentação, transporte, hospedagem e outras despesas relacionadas à viagem.
+              </p>
+              <div class="d-flex gap-2 mt-auto">
+                <a href="atv/ProjetoPOO.pdf" class="btn btn-outline-primary btn-sm" target="_blank">
+                  <i class="bi bi-box-arrow-up-right me-1"></i> Arquivo do projeto
+                </a>
               </div>
             </div>
-          </div>
-
-          <div class="d-flex flex-wrap gap-2">
-            <a href="https://github.com/TiagoMacielGithub" target="_blank" rel="noopener noreferrer" class="btn btn-dark btn-sm">
-              <i class="bi bi-github me-1"></i> GitHub
-            </a>
           </div>
         </div>
       </div>
@@ -96,10 +93,7 @@
       <small class="text-secondary">&copy; 2026 Tiago Maciel. Todos os direitos reservados.</small>
     </div>
   </footer>
-
-  <!-- Bootstrap 5.3 JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Script simples -->
   <script src="js/main.js"></script>
 </body>
 </html>
